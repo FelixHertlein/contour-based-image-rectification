@@ -1,0 +1,22 @@
+{
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+	"runArgs": [],
+	"forwardPorts": [],
+	"mounts": [
+		//"source=YOUR_DATA_SOURCE,target=/workspaces/contour-based-image-rectification/data/YOUR_DATA_TARGET,type=bind,consistency=cached,readOnly=true"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"ms-python.isort",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
